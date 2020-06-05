@@ -17,7 +17,7 @@ Here, we're just setting a few options.
 
 ```{r setup}
 knitr::opts_chunk$set(
-  warning = TRUE, # show warnings during codebook generation
+  warning = TRUE, # show warnings during codebook generation.
   message = TRUE, # show messages during codebook generation
   error = TRUE, # do not interrupt codebook generation in case of errors,
                 # usually better for debugging
@@ -64,3 +64,4 @@ Create codebook
 ```{r codebook}
 codebook(codebook_data)
 ```
+
